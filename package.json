@@ -1,6 +1,6 @@
 {
   "name": "related-files",
-  "version": "0.1",
+  "version": "0.0.0",
   "main": "./lib/related-files",
   "description": "Open related files(mostly Rails) based on regex file patterns",
   "repository": {
