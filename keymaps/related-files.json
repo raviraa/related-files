@@ -1,0 +1,11 @@
+{
+  ".platform-darwin": {
+    "shift-cmd-E": "related-files:toggle-rails-related-finder"
+  },
+  ".platform-win32": {
+    "shift-ctrl-E": "related-files:toggle-rails-related-finder"
+  },
+  ".platform-linux": {
+    "shift-ctrl-E": "related-files:toggle-rails-related-finder"
+  }
+}
