@@ -1,0 +1,26 @@
+{
+  "name": "related-files",
+  "version": "0.1.0",
+  "main": "./lib/related-files",
+  "description": "Open related files(mostly Rails) based on regex file patterns",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raviraa/related-files"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs-plus": "2.x",
+    "glob": "3.x",
+    "cson-safe": "0.x"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "readme": "# Related Files package\n\nQuickly navigate in your project between files based on realated file regular expession patterns.\n\nRuby on Rails patterns are included in the package. Can be extended with custom patterns.",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/raviraa/related-files/issues"
+  },
+  "homepage": "https://github.com/raviraa/related-files",
+  "_id": "related-files@0.1"
+}
