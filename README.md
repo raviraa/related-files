@@ -1,4 +1,4 @@
-# Atom Related Files package
+# Atom Rails Related Files package
 
 Atom plugin to quickly find and open files realted files in project using `shift-cmd-e`.
 

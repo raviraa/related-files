@@ -17,11 +17,23 @@
       [
         "app/views/$1/**",
         "app/helpers/$1_helper.rb",
-        "config/routes.rb",
+        "app/models/$1.rb",
         "spec/requests/$1_spec.rb",
         "spec/routing/$1_routing_spec.rb"
       ]
 
+    # Rails plural controller to singular model
+    ".+/app/controllers/(.+)s_controller.rb":
+      [
+        "app/models/$1.rb"
+      ]
+      
+    #Rails model to controller
+    ".+/app/models/(.+).rb":
+      [
+        "app/controllers/$1s_controller.rb"
+      ]
+    
     # Rails helpers
     ".+/app/helpers/(.+)_helper.rb":
       [
