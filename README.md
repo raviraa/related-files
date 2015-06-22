@@ -1,7 +1,6 @@
 # Atom Rails Related Files package
 
-## Note
-I've stopped using atom and don't have time to update code for this package. PR always welcome.
+*I've stopped using atom and don't have time to update code for this package. PR always welcome.*
 
 Atom plugin to quickly find and open files realted files in project using `shift-cmd-e`.
 
